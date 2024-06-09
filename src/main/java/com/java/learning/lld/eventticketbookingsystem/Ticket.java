@@ -1,4 +1,4 @@
-package com.java.learning.eventticketbookingsystem;
+package com.java.learning.lld.eventticketbookingsystem;
 
 import java.util.List;
 

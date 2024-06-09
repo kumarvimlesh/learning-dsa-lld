@@ -1,4 +1,4 @@
-package com.java.learning.marketplacesystem;
+package com.java.learning.lld.marketplacesystem;
 
 public class MarketPlaceApplication {
     public static void main(String[] args){

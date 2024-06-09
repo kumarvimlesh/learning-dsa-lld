@@ -1,4 +1,4 @@
-package com.java.learning.cacheds;
+package com.java.learning.lld.cacheds;
 
 public class CacheDataStructureApplication {
     public static void main(String[] args) {

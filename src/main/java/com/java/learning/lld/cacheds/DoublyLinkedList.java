@@ -1,4 +1,4 @@
-package com.java.learning.cacheds;
+package com.java.learning.lld.cacheds;
 
 class DoublyLinkedList<K, V> {
     private Node<K, V> head;

@@ -1,4 +1,4 @@
-package com.java.learning.ridebookingsystem;
+package com.java.learning.lld.ridebookingsystem;
 
 import javax.xml.stream.Location;
 import java.util.List;

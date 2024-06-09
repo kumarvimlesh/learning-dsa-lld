@@ -1,7 +1,5 @@
-package com.java.learning.eventticketbookingsystem;
+package com.java.learning.lld.eventticketbookingsystem;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
