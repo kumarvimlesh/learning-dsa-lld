@@ -1,4 +1,4 @@
-package com.java.learning.marketplacesystem;
+package com.java.learning.lld.marketplacesystem;
 
 //Inventory Management
 class Seller {
