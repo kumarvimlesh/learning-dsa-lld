@@ -1,5 +1,5 @@
 package com.java.learning.lld.marketplacesystem;
 
-enum Category {
-    ELECTRONIC, GIFTING
+enum PaymentMode {
+    Offline, Online
 }
