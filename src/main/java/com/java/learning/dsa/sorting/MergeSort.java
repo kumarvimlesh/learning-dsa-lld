@@ -3,42 +3,41 @@ package com.java.learning.dsa.sorting;
 public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {3, 7, 8, 7, 3, 1, 9, 54, 2, 7, 9, 17, 11, 8};
-        int[] sorted = mergeSort(arr);
-        for (int j : sorted) {
+        mergeSort(arr);
+        for (int j : arr) {
             System.out.print(j + " ");
         }
     }
 
-    private static int[] mergeSort(int[] arr) {
-        return divide(arr);
+    private static void mergeSort(int[] arr) {
+        divide(arr, 0, arr.length-1);
     }
 
-    private static int[] divide(int[] arr) {
-        if (arr.length == 1) return arr;
-        int[] a = new int[arr.length/2];
-        int[] b = new int[arr.length - a.length];
-        System.arraycopy(arr, 0, a, 0, a.length);
-        System.arraycopy(arr, a.length, b, 0, b.length);
-        return merge(divide(a), divide(b));
+    private static void divide(int[] arr, int l, int h) {
+        if (l==h) return;
+        int mid = (l + h)/2;
+        divide(arr, l, mid);
+        divide(arr, mid + 1, h);
+        merge(arr, l, mid ,  h);
     }
 
-    private static int[] merge(int[] a, int[] b){
-        int[] sorted = new int[a.length + b.length];
-        int i = 0, j = 0, k = 0;
-        while (k < sorted.length && i<a.length && j<b.length){
-            if (a[i]<=b[j]){
-                sorted[k] = a[i++];
+    private static void merge(int[] arr, int l, int m, int h) {
+        int[] tmp = new int[h-l+1];
+        int k = 0, i = l, j = m + 1;
+        while (k<=h && i<=m && j<=h){
+            if (arr[i]<=arr[j]){
+                tmp[k++] = arr[i++];
             }
-            else sorted[k] = b[j++];
-            k++;
+            else {
+                tmp[k++] = arr[j++];
+            }
         }
-        while (i<a.length){
-            sorted[k++] = a[i++];
+        while (i<=m){
+            tmp[k++] = arr[i++];
         }
-
-        while (j<b.length){
-            sorted[k++] = b[j++];
+        while (j<=h){
+            tmp[k++] = arr[j++];
         }
-        return sorted;
+        System.arraycopy(tmp, 0, arr, l, tmp.length);
     }
 }
