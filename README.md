@@ -5,13 +5,4 @@ DSA and LLD Questions Solutions
 ## Array
 |  |
 | ------- |
-| [0217-contains-duplicate](https://github.com/kumarvimlesh/learning-dsa-lld/tree/master/0217-contains-duplicate) |
-## Hash Table
-|  |
-| ------- |
-| [0217-contains-duplicate](https://github.com/kumarvimlesh/learning-dsa-lld/tree/master/0217-contains-duplicate) |
-## Sorting
-|  |
-| ------- |
-| [0217-contains-duplicate](https://github.com/kumarvimlesh/learning-dsa-lld/tree/master/0217-contains-duplicate) |
-<!---LeetCode Topics End-->
+| [0217-contains-duplicate](https://github.com/kumarvimlesh/learning-dsa-lld/tree/master/0217-contains-duplicate) 
