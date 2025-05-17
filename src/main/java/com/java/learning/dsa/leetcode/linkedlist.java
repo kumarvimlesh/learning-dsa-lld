@@ -1,4 +1,4 @@
-package com.java.learning.dsa;
+package com.java.learning.dsa.leetcode;
 
 /**
  * 237. Delete Node in a Linked List
