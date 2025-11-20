@@ -1,4 +1,4 @@
-package com.java.learning.lld.tinyUrl.model;
+package com.java.learning.lld.tinyUrl.way1.model;
 
 import lombok.Data;
 

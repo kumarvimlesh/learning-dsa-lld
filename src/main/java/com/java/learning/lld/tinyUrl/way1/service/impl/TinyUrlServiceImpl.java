@@ -1,8 +1,8 @@
-package com.java.learning.lld.tinyUrl.service.impl;
+package com.java.learning.lld.tinyUrl.way1.service.impl;
 
-import com.java.learning.lld.tinyUrl.model.TinyUrl;
-import com.java.learning.lld.tinyUrl.repository.TinyUrlRepository;
-import com.java.learning.lld.tinyUrl.service.TinyUrlService;
+import com.java.learning.lld.tinyUrl.way1.model.TinyUrl;
+import com.java.learning.lld.tinyUrl.way1.repository.TinyUrlRepository;
+import com.java.learning.lld.tinyUrl.way1.service.TinyUrlService;
 
 import java.util.List;
 import java.util.Optional;

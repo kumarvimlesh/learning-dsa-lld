@@ -1,6 +1,6 @@
-package com.java.learning.lld.tinyUrl.repository;
+package com.java.learning.lld.tinyUrl.way1.repository;
 
-import com.java.learning.lld.tinyUrl.model.TinyUrl;
+import com.java.learning.lld.tinyUrl.way1.model.TinyUrl;
 
 import java.util.ArrayList;
 import java.util.List;
